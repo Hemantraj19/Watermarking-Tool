@@ -94,9 +94,5 @@ def make_form():
     form.font_size_entry.bind("<<ComboboxSelected>>", bind_for_change_font)
 
 
-# def display_image():
-#     canvas = Canvas()
-
-
 make_form()
 window.mainloop()
